@@ -1,0 +1,55 @@
+in package units
+
+
+// -- BASE UNITS
+
+quantity length{}
+unit metre: length, "m"
+
+quantity mass{}
+unit gram: mass, "g"
+
+quantity time{}
+unit second: time, "s"
+
+quantity current{}
+unit ampere: current, "A"
+
+quantity temperature{}
+unit kelvin: temperature, "K"
+
+quantity amount_of_substance{}
+unit mole: amount_of_substance, "mol"
+
+quantity luminosity{}
+unit candela: luminosity, "cd"
+
+
+// -- DERIVED UNITS
+
+quantity angle{}
+unit radian: angle, "rad"
+
+quantity frequency{}
+unit hertz: frequency, "Hz"
+
+quantity pressure{}
+unit pascal: pressure, "Pa"
+
+quantity energy{}
+unit joule: energy, "J"
+
+quantity power{}
+unit watt: power, "W"
+
+quantity voltage{}
+unit volt: voltage, "V"
+
+quantity force{}
+unit newtown: force, "N"
+
+quantity resistance{}
+unit ohm: resistance, "O"
+
+unit fahrenheit: temperature, "F"
+unit celcius: temperature, "C"
