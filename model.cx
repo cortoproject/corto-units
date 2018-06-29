@@ -52,4 +52,4 @@ quantity resistance{}
 unit ohm: resistance, "O"
 
 unit fahrenheit: temperature, "F"
-unit celcius: temperature, "C"
+unit celsius: temperature, "C"
