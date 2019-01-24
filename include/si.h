@@ -7,7 +7,7 @@
 #ifndef SI_H
 #define SI_H
 
-#include <corto/corto.h>
+#include <corto>
 #include <si/_project.h>
 #include <corto/c/c.h>
 
