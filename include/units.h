@@ -6,19 +6,20 @@
 #ifndef UNITS_H
 #define UNITS_H
 
-#include <corto/corto.h>
-#include <units/_project.h>
-#include <corto/c/c.h>
+#include "bake_config.h"
+
+#define UNITS_ETC ut_locate("units", NULL, UT_LOCATE_ETC)
 
 /* $header() */
 /* Definitions that are required by package headers (native types) go here. */
 /* $end */
 
-#include <units/_type.h>
-#include <units/_interface.h>
-#include <units/_load.h>
-#include <units/_binding.h>
-#include <units/c/_api.h>
+#include "_type.h"
+#include "_interface.h"
+#include "_load.h"
+#include "_binding.h"
+
+#include <units.c>
 
 /* $body() */
 /* Definitions here that need your package headers go here. */

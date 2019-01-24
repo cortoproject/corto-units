@@ -4,8 +4,7 @@
     "value": {
         "description": "SI units",
         "author": "Sander Mertens",
-        "version": "0.1.0",
-        "language": "c",
-        "managed": true
-    }
+        "version": "0.1.0"
+    },
+    "corto": { }
 }
